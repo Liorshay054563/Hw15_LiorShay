@@ -2,7 +2,7 @@
 #1
 import random
 import statistics
-#l_50_num = [random.randint(1, 101) for i in range(50)]
+
 l_50_num: list[int]= [random.randint(1, 101) for i in range(50)]
 print(l_50_num)
 avg_l50 = statistics.mean(l_50_num)
@@ -48,7 +48,6 @@ print(list(map(lambda y : ("!") if y[-1] == ("s") else y, ["Mango","Orange","Ban
 #5
 #"global inside the func is that you use the cell memory from the outside"
 #"the disadvantage of using global that you may affect on others func in file"
-
-
+#"The func get Error because you not use "global x" to print x. ה X לא מוגדר
 
 
